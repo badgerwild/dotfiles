@@ -13,7 +13,10 @@ Plug 'dense-analysis/ale'
 Plug 'scrooloose/nerdtree'
 "color theme
 Plug 'morhetz/gruvbox'
+"latex plugin
 Plug 'lervag/vimtex'
+"better looking bar
+Plug 'itchyny/lightline.vim'
 call plug#end()
 set number 
 "settings for vimtex
@@ -30,3 +33,4 @@ let g:ale_fixers= {'python': ['yapf']}
 let g:polyglot_disabled= ['latex']
 colorscheme gruvbox
 set bg=dark
+set laststatus=2
